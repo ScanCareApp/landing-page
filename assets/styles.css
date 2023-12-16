@@ -34,7 +34,7 @@ p {
 }
 
 #preview {
-  background-image: url('assets/images/blob.png');
+  background-image: url('images/blob.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
