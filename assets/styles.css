@@ -1,0 +1,35 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+h1 {
+  font-weight: 400;
+  font-size: 4rem;
+  color: #698269;
+}
+p {
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #808080;
+}
+.btn {
+  background-color: #698269;
+  color: #FFFFFF;
+  padding: 15px 50px;
+  font-weight: 500;
+}
+.btn:hover {
+  background-color: #A5B4A5;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+#members {
+  width: 100%;
+  background-color: #8FA68F;
+  opacity: 0.8;
+  text-align: center;
+}
+#members img {
+  max-width: 80%;
+  display: block;
+  margin: 0 auto;
+}
