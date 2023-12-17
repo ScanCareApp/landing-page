@@ -42,6 +42,15 @@ p {
   opacity: 0.6;
 }
 
+<<<<<<< HEAD
+=======
+#preview {
+  background-image: url('images/blob.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+>>>>>>> c1d5fb53a405f97969b82580011df75c78eccc46
 
 #preview {
   background-image: url('images/blob.png');
