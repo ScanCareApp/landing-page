@@ -15,6 +15,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  
 }
 
 h1 {
@@ -114,6 +115,46 @@ p {
   opacity: 0.8;
   padding: 2%;
   text-align: center;
+}
+/* Gaya untuk kotak fitur */
+#features{
+  padding:10%;
+}
+.feature-box i {
+  color: #698269 ;
+}
+#features h2 {
+  color: #698269 ;
+  
+}
+.feature-box p {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0;
+}
+.feature-box:hover {
+  transform: translateY(-5px);
+}
+.feature-box h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.feature-box {
+  flex: 1;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  height: 300px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1), 0px -4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+@media (max-width: 768px) {
+  .feature-box {
+    margin-bottom: 30px;
+  }
 }
 .team-heading {
   text-align: center;
