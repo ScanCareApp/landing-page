@@ -46,8 +46,8 @@ p {
   background-image: url('images/blob.png');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center; /* Menempatkan gambar di bagian atas */
-  background-size: contain; /* Menutupi area tanpa terpotong */
+  background-position: center;
+  background-size: contain;
   max-width: 70%;
   height: 100%;
   margin: 0 auto;
@@ -78,11 +78,11 @@ p {
   overflow: hidden;
   padding: 0%;
 } */
-/* Menyesuaikan tampilan dots pada slider */
+
 .slider-preview .slick-dots {
   position: absolute;
-  bottom: 10px; /* Atur jarak dari bawah */
-  left: 4%; /* Atur padding kiri */
+  bottom: 10px; 
+  left: 4%; 
   list-style: none;
   display: flex;
   justify-content: center;
@@ -112,7 +112,15 @@ p {
   width: 100%;
   background-color: #8FA68F;
   opacity: 0.8;
+  padding: 2%;
   text-align: center;
+}
+.team-heading {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 20px;
+  display: block;
 }
 
 .slider-members {
