@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-custom {
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-custom .navbar-brand img {
+  height: 25px;
+  max-width: 100%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 4rem;
+  color: #698269;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #808080;
+}
+
+.btn {
+  background-color: #698269;
+  color: #FFFFFF;
+  padding: 15px 50px;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background-color: #A5B4A5;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+
+#preview {
+  background-image: url('images/blob.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  max-width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 3%;
+  overflow: hidden;
+}
+
+.slider-preview img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  padding: 3%; 
+  box-sizing: border-box;
+  max-height: 30%;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  padding-bottom: 0.2%;
+  padding-top: 2%;
+  padding-left: 4%;
+  position: top center;
+  margin: 0 auto;
+}
+
+/*slider-preview {
+  width: 70%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0%;
+} */
+
+.slider-preview .slick-dots {
+  position: absolute;
+  bottom: 10px; 
+  left: 4%; 
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.slider-preview .slick-dots li {
+  margin: 0 5px;
+}
+
+.slider-preview .slick-dots li button {
+  font-size: 0;
+  color: transparent;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+#members {
+  width: 100%;
+  background-color: #8FA68F;
+  opacity: 0.8;
+  padding: 2%;
+  text-align: center;
+}
+/* Gaya untuk kotak fitur */
+#features{
+  padding:10%;
+}
+.feature-box i {
+  color: #698269 ;
+}
+#features h2 {
+  color: #698269 ;
+  
+}
+.feature-box p {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0;
+}
+.feature-box:hover {
+  transform: translateY(-5px);
+}
+.feature-box h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.feature-box {
+  flex: 1;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 10px;
+  height: 210px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1), 0px -4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+@media (max-width: 768px) {
+  .feature-box {
+    margin-bottom: 30px;
+  }
+}
+.team-heading {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.slider-members {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slider-members img {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.supported-text{
+  color: #698269;
+}
+.supported-img {
+  max-width: 80px;
+  height: auto;
+}
+.social-links a {
+  display: block;
+  margin-bottom: 10px;
+  color:#698269;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #555;
+}
+
